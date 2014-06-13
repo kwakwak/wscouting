@@ -1,0 +1,58 @@
+$icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/";
+// bower:scss
+@import "bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss";
+// endbower
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+.track{
+  display: inline-block;
+}
+
+.trackContainer{
+  width: 80%;
+  height: 180px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0 auto;
+
+
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(left,  #ffffff 0%, #7db9e8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #ffffff 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #ffffff 0%,#7db9e8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #ffffff 0%,#7db9e8 100%); /* IE10+ */
+  background: linear-gradient(to right,  #ffffff 0%,#7db9e8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+img {
+  height: 140px;
+}
