@@ -22,13 +22,14 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 .middle {
   display: table-cell;
   vertical-align: middle;
+  overflow: hidden;
 }
 
 .inner {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-
+  text-align: center;
 }
 
 .track{
@@ -41,6 +42,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
   text-align: center;
   overflow: hidden;
   margin: 0 auto;
+  visibility: hidden;
 
 
   background: #ffffff; /* Old browsers */

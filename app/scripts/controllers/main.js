@@ -13,4 +13,16 @@ angular.module('wsApp')
             $scope.soundTracks = res.data.GetDatabaseResult.soundTracks;
             console.log ($scope.soundTracks); // debug
         });
+
+        $scope.isHidden=true;
+
+        $scope.fadeOut = function($event){
+            $event.stopPropagation()
+            $scope.isHidden=true;
+        }
+
+        $scope.fadeIn = function($event){
+            $event.stopPropagation()
+            $scope.isHidden=false;
+        }
     }]);

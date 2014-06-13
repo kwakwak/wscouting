@@ -1,9 +1,7 @@
-<div class="outer">
-    <div class="middle">
+<div class="outer" ng-click="fadeOut($event)">
+    <div class="middle" >
         <div class="inner">
-
-            <div class="trackContainer">
-
+            <div class="trackContainer" hide-me="isHidden">
                 <div class="track" ng-repeat="soundTrack in soundTracks">
                     <a href="{{'http://wscvideoswestus.blob.core.windows.net/soundtracks-full/'+soundTrack.File+'.mp3'}}">
                         <img ng-src="{{'http://az416917.vo.msecnd.net/soundtracks-images/'+soundTrack.File+'.jpg'}}"> <br/>
@@ -12,7 +10,10 @@
                     </a>
                 </div>
             </div>
-
+            <br/>
+            <button class="btn-primary" ng-click="fadeIn($event)">Open SoundTracks</button>
         </div>
     </div>
 </div>
+
+
